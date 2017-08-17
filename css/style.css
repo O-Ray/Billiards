@@ -1,0 +1,138 @@
+body{
+	background-color: #aff;
+	color: blue;
+	text-align: center;
+}
+
+/*下の板*/
+#div_{
+	position: absolute;
+	top: 92px;
+	left: 333px;
+	width: 450px;
+	height: 600px;
+	background-color: green;
+	/*overflow: none;*/
+}
+
+/*穴*/
+.hole_{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+#hole0_0{
+	top: 92px;
+	left: 333px;
+}
+#hole0_1{
+	top: 92px;
+	left: 753px;
+}
+#hole1_0{
+	top: 376px;
+	left: 333px;
+}
+#hole1_1{
+	top: 376px;
+	left: 753px;
+}
+#hole2_0{
+	top: 661px;
+	left: 333px;
+}
+#hole2_1{
+	top: 661px;
+	left: 753px;
+}
+/*ボール*/
+.ball{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: solid 1px;
+	border-radius: 30px;
+	border-color: white;
+}
+#ball0{
+	background-color: yellow;
+	top: 100px;
+	left: 540px;
+}
+#ball1{
+	background-color: blue;
+	top: 130px;
+	left: 525px;
+}
+#ball2{
+	background-color: red;
+	top: 130px;
+	left: 555px;
+}
+#ball3{
+	background-color: black;
+	top: 160px;
+	left: 510px;
+}
+#ball4{
+	background-color: red;
+	top: 160px;
+	left: 540px;
+}
+#ball5{
+	background-color: blue;
+	top: 160px;
+	left: 570px;
+}
+#ball6{
+	background-color: yellow;
+	top: 190px;
+	left: 525px;
+}
+#ball7{
+	background-color: red;
+	top: 190px;
+	left: 555px;
+}
+#ball8{
+	background-color: black;
+	top: 220px;
+	left: 540px;
+}
+#myBall{
+	background-color: white;
+
+}
+
+/*棒*/
+#stick{
+	z-index: 30;
+	width: 10px;
+	height: 550px;
+	position: absolute;
+	top: 356px;
+	left: 550px;
+	transform-origin:50% 47%;
+}
+.baa{
+	background-color: #00ffff;
+	width: 50px;
+	height: 10px;
+}
+#ba_{
+	width: 500px;
+	height: 10px;
+}
+progress{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	background-color: white;
+	color: blue;
+	z-index: 1000;
+}
+#re_div{
+	width: 1200px;
+	height: 770px;
+}
