@@ -104,7 +104,7 @@ function move() {
 	holeJudgment();
 	wallJudgment();
 	SpeedSearch(Speed);
-	setTimeout("move()", Speed);
+	setTimeout(move, Speed);
 }
 //自分のボールと壁の当たあたり判定
 function wallJudgment() {
@@ -178,7 +178,6 @@ function tobasu(num, num1) {
 		if (num === 0) {
 			othersBallsX[8] += (directionX8 * (SpeedX1 * 200 * -1));
 			othersBallsY[8] += (directionY8 * (SpeedY1 * 200));
-			console.log(directionY8);
 			ball8GetId.style.top = othersBallsY[8] + "px";
 			ball8GetId.style.left = othersBallsX[8] + "px";
 			tobasuSpeed += 1.3;
